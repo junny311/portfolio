@@ -339,11 +339,10 @@ export default function App() {
 
       {/* ── Footer ── */}
       <footer className="border-t border-gray-100 py-6 px-6">
-        <div className="max-w-5xl mx-auto flex items-center justify-between">
+        <div className="max-w-5xl mx-auto">
           <span className="text-base text-gray-400">
-            © {new Date().getFullYear()} {PROFILE.name}
+            © {new Date().getFullYear()}
           </span>
-          <span className="text-base text-gray-300">부경대학교 기술데이터공학과</span>
         </div>
       </footer>
     </div>
